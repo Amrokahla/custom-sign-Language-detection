@@ -61,7 +61,7 @@ The project consists of the following modules:
    ```python
    !pip install -r /content/drive/MyDrive/path/to/requirements.txt
 4. **Run the scripts**:
-- Use the %run magic command to execute the scripts:
+- Use the `%run` magic command to execute the scripts:
   ```python
   %run /content/drive/MyDrive/path/to/src/prepare.py
 ## Usage
@@ -102,10 +102,11 @@ The project consists of the following modules:
 - Pandas (pandas)
 - NumPy (numpy)
 Install all dependencies using:
-      ```bash
-      pip install -r requirements.txt
-
+   ```bash
+   pip install -r requirements.txt
+   ```
 ## Contributing
+
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 1. Fork the repository.
 2. Create a new branch (git checkout -b feature/YourFeatureName).
