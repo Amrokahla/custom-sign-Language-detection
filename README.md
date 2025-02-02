@@ -42,7 +42,8 @@ The project consists of the following modules:
    source venv/bin/activate
    ```
    or
-   ``` ./venv/Scripts/activate
+   ```bash
+   ./venv/Scripts/activate
 3. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
