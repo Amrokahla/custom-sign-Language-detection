@@ -7,7 +7,6 @@ This project is a real-time sign language detection system that uses **MediaPipe
 - [Overview](#overview)
 - [Setup](#setup)
   - [Local Setup (VS Code)](#local-setup-vs-code)
-  - [Google Colab Setup](#google-colab-setup)
 - [Usage](#usage)
   - [Data Collection](#data-collection)
   - [Data Preprocessing](#data-preprocessing)
@@ -35,35 +34,20 @@ The project consists of the following modules:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/sign-language-detection.git
-   cd sign-language-detection
+   git clone https://github.com/Amrokahla/custom-sign-Language-detection.git
+   cd custom-sign-Language-detection
 2. **Create a virtual environment**:
    ```bash
    python -m venv venv
-   source venv/bin/activate
+   source venv/bin/activate```
+   or
+   ``` ./venv/Scripts/activate
 3. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
 4. **Run the scripts**:
    Follow the instructions in the [Usage](#usage) section.
-
-### Google Colab Setup
-
-1. **Upload the project to Google Drive**:
-- Upload the `src` folder and `requirements.txt` to your Google Drive.
-
-2. **Open Google Colab**:
-- Create a new notebook and mount Google Drive:
-  ```python
-  from google.colab import drive
-  drive.mount('/content/drive')
-3. **Install dependencies**:
-   ```python
-   !pip install -r /content/drive/MyDrive/path/to/requirements.txt
-4. **Run the scripts**:
-- Use the `%run` magic command to execute the scripts:
-  ```python
-  %run /content/drive/MyDrive/path/to/src/prepare.py
+   
 ## Usage
 
 ### Data Collection
