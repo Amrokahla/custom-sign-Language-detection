@@ -39,7 +39,8 @@ The project consists of the following modules:
 2. **Create a virtual environment**:
    ```bash
    python -m venv venv
-   source venv/bin/activate```
+   source venv/bin/activate
+   ```
    or
    ``` ./venv/Scripts/activate
 3. **Install dependencies**:
